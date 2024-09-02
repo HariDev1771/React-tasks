@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Heading = () => {
+const Heading = (props) => {
   return (
     <div>
-        <h1 className='text-6xl font-bold'>React Tasks</h1>
+        <h1 className='text-6xl font-bold'>{props.head}</h1>
     </div>
   )
 }

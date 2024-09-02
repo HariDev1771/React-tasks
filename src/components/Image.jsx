@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Image = () => {
+const Image = (props) => {
   return (
     <div>
-        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDbK28OUrr0P4u9gEvtysKnpWE8F5z4pJrFw&s'/>
+        <img src={props.pic}/>
     </div>
   )
 }
